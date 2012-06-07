@@ -206,6 +206,7 @@
                             comment.authorName, @"author_name",
                             comment.authorEmail, @"author_email",
                             comment.rawMessage, @"message",
+                            @"approved", @"state",
                             nil] 
                    success:^(id object) {
                        // fetch the json response to a dictionary
